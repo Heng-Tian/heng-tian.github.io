@@ -1,217 +1,207 @@
-<!DOCTYPE HTML>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8" />
   <title>Heng Tian</title>
-  
-  <meta name="author" content="Heng Tian">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="icon" type="image/png" href="images/neu_logo.png">
+  <meta name="author" content="Heng Tian" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="icon" type="image/png" href="images/neu_logo.png" />
+  <link rel="stylesheet" href="stylesheet.css" />
+  <script defer src="news-toggle.js"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:63%;vertical-align:middle">
-              <p class="name" style="text-align:center; text-justify:inter-ideograph;">
-                Heng Tian &nbsp&nbsp&nbsp 田恒
-              </p>
-              <p style="text-align:justify; text-justify:inter-ideograph;">I am a research assistant in the <a href="https://www.khoury.northeastern.edu/people/boce-hu/">Khoury College of Computer Science</a> at <a href="https://www.northeastern.edu/">Northeastern University</a>, advised by Prof. <a href="https://www.khoury.northeastern.edu/people/robert-platt/">Robert Platt</a> in <a href="https://www2.ccs.neu.edu/research/helpinghands/">The Helping Hands Lab</a>.
-                I completed my Master's degree in the <a href="https://ece.northeastern.edu/">Department of Electrical and Computer Engineering</a> at Northeastern University, where I had the opportunity to work with <a href="https://coe.northeastern.edu/people/singh-hanumant/">Professor Hanumant Singh</a>.
-              <p style="text-align:justify; text-justify:inter-ideograph;"> My research interests include robot learning, policy learning, and robotic arm manipulation.
-              </p>
-              
-              <p style="text-align:center">
-                <a href="mailto: tian,hen@northeastern.edu">Email</a> &nbsp/&nbsp
-                <a href="https://github.com/heng-t">Github</a>
-              </p>
-            </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/avatar.png"><img style="width:100%;max-width:100%" alt="profile photo" src="images/avatar.png" class="hoverZoomLink"></a>
-            </td>
-          </tr>
-        </tbody></table>
-        <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <h2>News</h2>
-              <ul style="list-style-type:disc">
-               <li>Sep 2024: <a href="https://arxiv.org/pdf/2407.03531">OrbitGrasp</a> has been accepted by <a  href="https://www.corl.org/">CoRL</a>.</li>
-               <li>Sep 2023: I officially started my Ph.D. study at Northeastern University.</li> 
-              
-              </ul>
-            </td>
-          </tr>
-        </tbody></table> -->
+  <main class="page">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-text">
+        <h1 class="name">Heng Tian <span class="name-cn">田恒</span></h1>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-          <td style="padding:20px;width:100%;vertical-align:middle">
-            <h2>Publications</h2>
-            <p style="font-size: 14px; color: #666; margin-top: 0px; margin-bottom: -10px;">* indicates equal contribution, † indicates corresponding author</p>
-          </td>
-        </tr>
-      </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody></tbody>
+        <p class="bio">
+          I am a research assistant in the Khoury College of Computer Science</a> at <a href="https://www.northeastern.edu/">Northeastern University</a>, advised by Prof. <a href="https://www.khoury.northeastern.edu/people/robert-platt/">Robert Platt</a> in <a href="https://www2.ccs.neu.edu/research/helpinghands/">The Helping Hands Lab</a>.
+          I completed my Master's degree in the <a href="https://ece.northeastern.edu/">Department of Electrical and Computer Engineering</a> at Northeastern University, where I had the opportunity to work with <a href="https://coe.northeastern.edu/people/singh-hanumant/">Professor Hanumant Singh</a>.
+          My research interests include robot learning, policy learning, and robotic arm manipulation.
+        </p>
 
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
+        <nav class="links">
+          <a href="mailto: tian.hen@northeastern.edu">Email</a>
+          <span class="sep">/</span>
+          <a href="https://github.com/heng-t">Github</a>
+        </nav>
+      </div>
 
-              <img src='images/ego_diff.gif'  width="260">
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-               <a href="https://arxiv.org/abs/2505.16969">
-                <papertitle>3D Equivariant Visuomotor Policy Learning via Spherical Projection</papertitle>
-              </a>
-              <br>
-               Boce Hu, Dian Wang, David Klee, <strong><font color="blue">Heng Tian</font></strong>, Xupeng Zhu, Haojie Huang, Robert Platt, Robin Walters.
-              <br>
-              <em>
-                Underreview
-              </em>
-              <br>
-                [<a href="https://arxiv.org/abs/2505.16969">arxiv</a>]
-              <br>
+      <a class="avatar" href="images/avatar.png" aria-label="Profile photo">
+        <img src="images/avatar.png" alt="profile photo" />
+      </a>
+    </header>
 
-            </td>
-          </tr>
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              
-              <img src='images/push_grasp.png', width="240">
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2504.03053">
-                <papertitle>Push-Grasp Policy Learning Using Equivariant Models and Grasp Score Optimization</papertitle>
-              </a>
-              <br>
-              Boce Hu*, <strong><font color="blue">Heng Tian*</font></strong>, Dian Wang<sup>†</sup>, Haojie Huang, Xupeng Zhu, Robin Walters, Robert Platt.
-              <br>
-              <em>
-                IEEE Robotics and Automation Letters (RAL), 2025
-              </em>
-              <br>
-                [<a href="https://arxiv.org/pdf/2504.03053">PDF</a>]
-              <br> 
-<!--               * indicate equal contribution. -->
-            </td>
-          </tr>
-<!-- 
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-            
-              <img src='images/acr.png', width="200">
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2210.05130">
-                <papertitle>ACRNet: Attention Cube Regression Network for Multi-view 3D Human Pose Estimation in the Postural Star-sitting Test</papertitle>
-              </a>
-              <br>
-                <strong><font color="blue">Boce Hu</font></strong>, Chenfei Zhu, Xupeng Ai, Sunil Agrawal.
-              <br>
-              <em>
-                Collection of the Robotics in Healthcare in Scientific Reports, 2023
-              </em>
-              <br>
-              [<a href="https://arxiv.org/abs/2210.05130">arXiv</a>]
-              [<a href="https://github.com/BoceHu/ACRNet">Code</a>]
-            </td>
-          </tr> -->
+    <!-- News -->
+    <section class="section">
+      <h2>News</h2>
+      <ul id="news-list" class="news-list">
+        <li>Feb 2026: <a href="https://arxiv.org/pdf/2510.21121">GSL</a> has been accepted by <a
+            href="https://www.ieee-ras.org/publications/ra-l">RAL</a>.</li>
+        <li>Feb 2026: One paper has been accepted by <a href="https://journals.sagepub.com/home/IJR">IJRR</a>!</li>
+        <li>Jan 2026: <a href="https://bocehu.github.io">RAVEN</a> has been accepted by <a
+            href="https://iclr.cc/">ICLR</a>!
+          See you in Brazil!</li>
+        <li>Sep 2025: <a href="https://arxiv.org/abs/2505.16969">ISP</a> has been accepted by <a
+            href="https://neurips.cc/">NeurIPS</a> as a <span class="badge badge-hot">Spotlight (3%)</span>! See you in
+          SD!</li>
+        <li>Aug 2025: <a href="https://arxiv.org/abs/2504.03053">EPG</a> has been accepted by <a
+            href="https://www.ieee-ras.org/publications/ra-l">RAL</a>.</li>
+      </ul>
+    </section>
 
-        <!-- <tr>
-          <td style="padding:20px;width:25%;vertical-align:middle">
-            
-            <img src='images/SARN_pipeline.png', width="240">
-          </td>
-          <td style="padding:20px;width:75%;vertical-align:middle">
-            <a href="https://www.mdpi.com/2306-5354/10/2/126">
-              <papertitle>SARN: Shifted Attention Regression Network for 3D Hand Pose Estimation</papertitle>
+    <!-- Publications -->
+    <section class="section">
+      <div class="section-head">
+        <h2>Publications</h2>
+        <p class="note">* indicates equal contribution, † indicates equal advising</p>
+      </div>
+
+      <div class="pub-list">
+
+        <article class="pub">
+          <div class="pub-media">
+            <img src="images/raven.gif" alt="RAVEN thumbnail" />
+          </div>
+          <div class="pub-body">
+            <a href="https://bocehu.github.io" class="pub-title">
+              <papertitle>RAVEN: End-to-end Equivariant Robot Learning with RGB Cameras</papertitle>
             </a>
-            <br>
-            Chenfei Zhu, <strong><font color="blue">Boce Hu</font></strong>, Jiawei Chen, Xupeng Ai, Sunil Agrawal.
-            <br>
-            <em>
-              Bioengineering, 2023
-            </em>
-            <br>
-              [<a href="data/sarn.pdf">PDF</a>]
-          </td>
-        </tr> -->
+            <div class="pub-authors">
+              David Klee*, Boce Hu*, Andrew Cole, <span class="me">Heng Tian</span>, Dian Wang, Robert
+              Platt<sup>†</sup>,
+              Robin Walters<sup>†</sup>.
+            </div>
+            <div class="pub-venue">International Conference on Learning Representations (ICLR), 2026</div>
+            <div class="pub-links">
+              [<a href="https://openreview.net/forum?id=z8BN7KyaPl">openreview</a>]
+            </div>
+          </div>
+        </article>
 
-        <!-- <tr>
-          <td style="padding:20px;width:25%;vertical-align:middle">
-            
-            <img src='images/bounding.png', width="240">
-          </td>
-          <td style="padding:20px;width:75%;vertical-align:middle">
-            <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9944704">
-              <papertitle>A Deep-Learning Based Real-Time Prediction of Seated Postural Limits and Its Application in Trunk Rehabilitation</papertitle>
+        <article class="pub">
+          <div class="pub-media">
+            <img src="images/haibo_gsl.png" alt="GSL thumbnail" />
+          </div>
+          <div class="pub-body">
+            <a href="https://arxiv.org/pdf/2510.21121" class="pub-title">
+              <papertitle>Generalizable Hierarchical Skill Learning via Object-Centric Representation</papertitle>
             </a>
-            <br>
-            Xupeng Ai, Victor Santamaria, Jiawei Chen, <strong><font color="blue">Boce Hu</font></strong>, Chenfei Zhu, Sunil Agrawal.
-            <br>
-            <em>
-              IEEE Transactions on Neural Systems and Rehabilitation Engineering (TNSRE), 2022
-            </em>
-            <br>
-              [<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9944704">PDF</a>]
-          </td>
-        </tr> -->
+            <div class="pub-authors">
+              Haibo Zhao, Yu Qi, Boce Hu, Yizhe Zhu, Ziyan Chen, <span class="me">Heng Tian</span>, Xupeng Zhu, Owen
+              Howell,
+              Haojie Huang, Robin Walters, Dian Wang<sup>†</sup>, Robert Platt<sup>†</sup>.
+            </div>
+            <div class="pub-venue">IEEE Robotics and Automation Letters (RAL), 2026</div>
+            <div class="pub-links">
+              [<a href="https://arxiv.org/abs/2510.21121">arxiv</a>]
+              [<a href="https://codemasterzhao.github.io/GSL/">website</a>]
+            </div>
+          </div>
+        </article>
 
+        <article class="pub">
+          <div class="pub-media">
+            <img src="images/coffee_making.gif" alt="ISP thumbnail" />
+          </div>
+          <div class="pub-body">
+            <a href="https://arxiv.org/pdf/2505.16969" class="pub-title">
+              <papertitle>3D Equivariant Visuomotor Policy Learning via Spherical Projection</papertitle>
+            </a>
+            <div class="pub-authors">
+              Boce Hu, Dian Wang, David Klee, <span class="me">Heng Tian</span>, Xupeng Zhu, Haojie Huang, Robert
+              Platt<sup>†</sup>,
+              Robin Walters<sup>†</sup>.
+            </div>
+            <div class="pub-venue">Neural Information Processing Systems (NeurIPS), 2025, <span class="badge badge-hot">Spotlight (3%)</span></div>
+            <div class="pub-links">
+              [<a href="https://arxiv.org/abs/2505.16969">arxiv</a>]
+              [<a href="https://openreview.net/forum?id=kXJd4JxF34">openreview</a>]
+              [<a href="https://isp-3d.github.io/">website</a>]
+              [<a href="https://youtu.be/b1aAnbDHQh0">summarization video</a>]
+            </div>
+          </div>
+        </article>
 
-        <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle;">
-              <h2>Service</h2>
-              <ul style="list-style-type:disc;">
-                <li>Reviewer: CoRL 2024</li>
-            </ul>
-            </td>
-          </tr>
-        </tbody></table> -->
+        <article class="pub">
+          <div class="pub-media">
+            <img src="images/push_grasp.gif" alt="Push-grasp thumbnail" />
+          </div>
+          <div class="pub-body">
+            <a href="https://arxiv.org/pdf/2504.03053" class="pub-title">
+              <papertitle>Push-Grasp Policy Learning Using Equivariant Models and Grasp Score Optimization</papertitle>
+            </a>
+            <div class="pub-authors">
+              Boce Hu*, <span class="me">Heng Tian*</span>, Dian Wang, Haojie Huang, Xupeng Zhu, Robin
+              Walters<sup>†</sup>,
+              Robert Platt<sup>†</sup>.
+            </div>
+            <div class="pub-venue">IEEE Robotics and Automation Letters (RAL), 2025</div>
+            <div class="pub-links">
+              [<a href="https://arxiv.org/abs/2504.03053">arxiv</a>]
+              [<a href="https://equipushgrasp.github.io/">website</a>]
+            </div>
+          </div>
+        </article>
 
-        <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle;">
-              <h2>Teaching</h2>
-              <ul style="list-style-type:disc;">
-                <li style="margin-bottom: 15px;">Fall 2024:
-                    <strong>CS5180</strong> - Reinforcement Learning.<br>
-                    <i>Teaching Assistant. Northeastern University</i>
-                </li> 
-                <li style="margin-bottom: 15px;">Spring 2023:
-                    <strong>MECE6614</strong> - Advanced Kinematics, Dynamics, and Control in Robotics.<br>
-                    <i>Course Assistant. Columbia University</i>
-                </li> 
-                <li style="margin-bottom: 15px;">Fall 2022:
-                    <strong>MECE4520</strong> - Data Science for Mechanical Systems.<br>
-                    <i>Course Assistant. Columbia University</i>
-                </li>
-            </ul>
-            
-            
-            </td>
-          </tr>
-        </tbody></table> -->
+      </div>
+    </section>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <br>
-              <p style="text-align:left;font-size:small;">
-              <a href="https://github.com/jonbarron/website">Website template from Jon Barron</a>. Last updated: August 22, 2024.
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
+    <!-- Service -->
+    <!-- <section class="section">
+      <h2>Service</h2>
+      <ul class="simple-list">
+        <li>Reviewer: CoRL, ICRA, IROS, ICLR, ICML, RAL</li>
+      </ul>
+    </section> -->
 
-      </td>
-    </tr>
-  </table>
+    <!-- Teaching -->
+    <!-- <section class="section">
+      <h2>Teaching</h2>
+      <ul class="simple-list">
+        <li>
+          <strong>Fall 2024:</strong> <strong>CS5180</strong> - Reinforcement Learning.<br />
+          <span class="muted"><em>Teaching Assistant. Northeastern University</em></span>
+        </li>
+        <li>
+          <strong>Spring 2023:</strong> <strong>MECE6614</strong> - Advanced Kinematics, Dynamics, and Control in
+          Robotics.<br />
+          <span class="muted"><em>Course Assistant. Columbia University</em></span>
+        </li>
+        <li>
+          <strong>Fall 2022:</strong> <strong>MECE4520</strong> - Data Science for Mechanical Systems.<br />
+          <span class="muted"><em>Course Assistant. Columbia University</em></span>
+        </li>
+      </ul>
+    </section> -->
+
+  <footer class="footer">
+
+  </footer>
+  </main>
+  <!-- <table style="width:100%; border:0; margin:0 auto;">
+    <tbody>
+      <tr>
+        <td style="display:none;">
+          <script id="clustrmaps"
+            src="//clustrmaps.com/map_v2.js?d=3P2p5t7UTfhkfjD11XeHC_tGy0re9q5YxsaGcXfmqzE&cl=ffffff&w=a">
+            </script>
+        </td>
+      </tr>
+    </tbody>
+  </table> -->
 </body>
 
 </html>
